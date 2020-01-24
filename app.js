@@ -1,4 +1,4 @@
-window.addEventListener('keydown', function(e) {
+ function playSound(e) {
     const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
     const key = document.querySelector(`.key[data-key="${e.keyCode}"]`);
     if (!audio) return; // Stop the function from running all together
@@ -13,5 +13,6 @@ window.addEventListener('keydown', function(e) {
 
     const keys = document.querySelectorAll('.key');
     keys.forEach(key => key.addEventListener('transitionend', removeTransition)); // Listen for a transition event on each key
+};
 
-});
+window.addEventListener('keydown', playSound);
