@@ -4,13 +4,14 @@ body,html {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-color: #f02d43;
 }
 
 h1 {
   font-family: 'Pacifico', cursive;
-  font-size: 3.5rem;
-  color: #f02d43;
-  text-shadow: 2px 1px 1px #7a162254;
+  font-size: 3rem;
+  color: #000000;
+  text-shadow: 1px 1px 2px #fff;
   text-align: center;
 }
 
