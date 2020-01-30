@@ -52,6 +52,12 @@ kbd {
   color: #ffc600;
 }
 
+.snare {
+  background: url('img/snare.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 @media (max-width: 580px) {
   h1 {
     font-size: 2.3rem;
